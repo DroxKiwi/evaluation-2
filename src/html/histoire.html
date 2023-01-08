@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>eval1 : Fredj Corentin</title>
+    <link rel="stylesheet" href="../css/index.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="py-2">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #008080; opacity: 80%;">
+          <div class="collapse navbar-collapse" id="navbarText">
+            <a class="navbar-brand" style="padding-left: 1%" href="index.html">Angers</a>
+            <ul id="navbarItems" class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="histoire.html">Histoire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="visiter.html">A visiter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="apropos.html">A propos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <section class="mt-4">
+        <div class="row justify-content-between">
+          <div class="col-md-4 col-xl-3">
+            <aside>
+              <div class="resume">
+                <h2>Angers ville gauloise</h2>
+                <p>L'histoire en bref
+                  Capitale du peuple gaulois des Andes, elle prend le nom de Juliomagus au début de l'Antiquité. Un rempart est construit au IIIe siècle protégeant le quartier de la cité et au XIIIe siècle, la forteresse est érigée dans une enceinte emmurant la ville, rive gauche et la Doutre, rive droite.
+                </p>
+              <h4>Un peu d'histoire</h4>
+              <div id="actions" class="list-group">
+                <a class="list-group-item list-group-item-action active" id="action-1" onclick="changeArticle(event)">Des invasions normandes et bretonnes à l'Empire Plantagenêt</a>
+                <a class="list-group-item list-group-item-action" id="action-2" onclick="changeArticle(event)">Le réveil de la ville au XIXe siècle</a>
+                <a class="list-group-item list-group-item-action" id="action-3" onclick="changeArticle(event)">Le XXIe siècle</a>
+              </div>
+            </div>
+            </aside>
+          </div>
+            <div id="article" class="col article">
+              <div id="articleView" class="paragraphe row justify-content-center">
+                <img alt="image Chateau angers" src="../images/chateau1.JPG" style="border-radius: 25px;" class="col"/>
+                <p class="col-8">
+Des invasions normandes et bretonnes à l'Empire Plantagenêt. Vue du château d'Angers et de la Porte des champs. Le château d'Angers, édifié à partir du XIIIe siècle. En périphérie de la Cité, des nécropoles sont érigées à partir du IVe siècle pour accueillir les premiers évêques de la ville (sur le site de l’actuelle place du Ralliement). Vingt-cinq sarcophages mérovingiens y ont été mis au jour en 200813. Vers le milieu du VIe siècle est consacrée la première abbaye (Saint-Aubin) – selon la légende par l'évêque de Paris, saint Germain – afin d’abriter le tombeau d'Aubin. L'abbaye Saint-Serge est créée environ un siècle plus tard par les rois mérovingiens Clovis II et Thierry III11. L'église cathédrale de la ville est dédicacée à Saint-Maurice en 77014. Le milieu du IXe siècle voit apparaitre des temps troublés. Tant les Bretons que les Normands font d’incessantes incursions en Anjou. Le comte s’installe même à l’emplacement actuel du château afin de surveiller la rivière11. La ville sera néanmoins pillée par le chef viking Hasting en 845, puis à nouveau en 85215. Après la bataille de Jengland, Charles le Chauve et Erispoë, chef breton, se rencontrent à Angers en septembre 851 pour signer le traité d'Angers qui donne à la Bretagne les pays rennais, nantais et de Retz, fixant ainsi les limites frontalières de la Bretagne16. Charles le Chauve décide alors en 853 d’établir une marche autour des territoires de l'Anjou, de la Touraine, du Maine et du pays de Sées. Il la confie à Robert le Fort qui sera tué en 866 au cours de la bataille de Brissarthe11. Finalement, en 872, les Normands prennent la ville et s’y installent pendant près d’un an16. Charles le Chauve intervient lui-même aux côtés de Salomon de Bretagne pour les en déloger. Le roi de Bretagne détourne alors la Maine, ce qui met les bateaux viking à sec et ôte une protection au château. Hasting négocie son départ en offrant une part du butin17. Ce détournement est à l'origine du canal de la tannerie, comblé seulement au XIXe siècle14,18. Les derniers Carolingiens, rois des Francs et comtes d’Anjou, délèguent la gestion du comté à des vicomtes à partir de la fin du IXe siècle. L’un d’entre eux, Foulque le Roux, deviendra Foulque Ier d'Anjou en 929 et fondera ainsi la première dynastie des comtes d’Anjou. La région s’apaise et le rôle militaire d’Angers aux marches du Royaume disparait pour plusieurs siècles.
+                </p>
+                <p><br>
+                  Le calme retrouvé, la ville se développe par le biais de nombreux bourgs et faubourgs. Au XIe siècle, Foulque Nerra, comte d’Anjou, laisse à Angers une empreinte considérable. Il fait restaurer l’église Saint-Martin, le plus vieux monument actuel de la ville ; favorise la fondation d’abbayes bénédictines (Saint-Nicolas et Notre-Dame-de-la-Charité, future abbaye du Ronceray)19 – il fait également creuser l’étang Saint-Nicolas sur le Brionneau14 – ; enfin, il fait édifier le premier pont de pierre à l’emplacement du pont de Verdun. Toutes ces installations en rive droite de la Maine sont à l’origine du quartier de la Doutre19. Son surnom – « le noir » – lui a été attribué postérieurement, au XIIe siècle. De son vivant, il était appelé « l’Ancien » ou le « Jérosolimitain » du fait de plusieurs pèlerinages à Jérusalem. Carte de l'empire Plantagenêt sous le règne d'Henri II, allant de la Navarre à l'Angleterre et l'Irlande orientale. L'empire Plantagenêt sous Henri II d'Angleterre (XIIe siècle).
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <div class="row justify-content-center align-items-center text-justify footer">
+          <div class="col-4">
+            <p>Ici c'est le footer, site réalisé par Corentin Fredj pour Studi</p>
+            <p>corentinfredj.dev@gmail.com</p>
+            <p>le lien github du projet <a href="https://github.com/DroxKiwi/evaluation-1.git">https://github.com/DroxKiwi/evaluation-1.git</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+<!-- Here the sources cdn we need to implement bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+<!-- script JS -->
+<script src="../js/index.js"></script>
+</body>
+</html>
