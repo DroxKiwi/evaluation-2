@@ -135,7 +135,7 @@ img {
 .resizable .resizers .resizer {
   width: 100px;
   height: 100px;
-  border-radius: 20%; /*magic to turn square into circle*/
+  border-radius: 20%;
   background: rgb(255, 121, 121);
   border: 5px solid red;
   position: absolute;
