@@ -1,5 +1,5 @@
 # Evaluation-2
-Évaluation d'entraînement - Créer un site web avec HTML, CSS et le Framework Bootstrap
+Évaluation d'entraînement - Dynamiser vos sites web avec Javascript 
 
 ## Constitution du site
 
