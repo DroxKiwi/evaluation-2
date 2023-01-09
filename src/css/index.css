@@ -117,4 +117,8 @@ img {
   right: -5px;
   top: 0%;
   cursor: e-resize;
+}
+
+.resizable .resizers .resizer:hover {
+  border: 10px solid rgba(139, 139, 139, 0.338);
 }/*# sourceMappingURL=index.css.map */

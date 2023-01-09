@@ -122,3 +122,7 @@ img{
   cursor: e-resize;
 }
 
+.resizable .resizers .resizer:hover{
+  border: 10px solid rgba(139, 139, 139, 0.338);
+}
+
