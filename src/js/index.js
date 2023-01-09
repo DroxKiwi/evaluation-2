@@ -49,7 +49,7 @@ function createNewArticle(index){
 
             var img = document.createElement('img')
             img.src = "../images/chateau1.JPG"
-            img.className = "col"
+            img.className = "col-xl-4 col-md-12"
             img.alt = "image chateau angers"
 
             article.appendChild(img)
@@ -71,7 +71,7 @@ function createNewArticle(index){
 
             var img = document.createElement('img')
             img.src = "../images/Le_port_Ayrault_d'Angers_en_1848.jpg"
-            img.className = "col"
+            img.className = "col-xl-4 col-md-12"
             img.alt = "image port ayrault"
 
             article.appendChild(p1)

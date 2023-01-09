@@ -23,6 +23,7 @@ function makeResizableDiv(div) {
         window.addEventListener('mouseup', stopResize)
       })
       
+      // this function assign the new position in link with the mouse position
       function resize(e) {
         if (currentResizer.classList.contains('side')) {
           const width = original_width + (e.pageX - original_mouse_x)
@@ -40,3 +41,62 @@ function makeResizableDiv(div) {
   }
   
   makeResizableDiv('.resizable')
+
+
+
+
+
+// This part of code is to animate the tutorial
+
+let anim = true
+let index = 0
+let intervAnim
+
+// This function load the animation and play it
+function loadAnimationTuto(){
+  var test = document.getElementById('tutoResizable')
+  console.log(index)
+  // if the user click next to the modal, the loop will also stop
+  if (!test.classList.contains("show")){
+    stopAnimationTuto()
+  }
+  const resizer = document.getElementById('resizer')
+  index++
+  if (anim){
+    resizer.style.opacity = 1
+    anim = false
+  }
+  else {
+    resizer.style.opacity = 0.2
+    anim = true
+  }
+}
+
+// This function stop the animation when we click of the button 
+function stopAnimationTuto(){
+  const resizer = document.getElementById('resizer')
+  clearInterval(intervAnim)
+  intervAnim = null
+  resizer.style.opacity = "100%"
+  let btnModalTuto = document.getElementById("actionTutoResizable")
+  console.log(btnModalTuto.classList)
+  btnModalTuto.classList.remove("hidden")
+}
+
+// This function simulate the click of the Modal concerned after 5 seconds
+function tutorialResizable() {
+  var btn = document.getElementById('actionTutoResizable');
+  btn.click()
+  if (!intervAnim){
+    intervAnim = setInterval(loadAnimationTuto, 1000)
+  }
+}
+
+// function called at the end of loading of the body from js.html
+function popupTutorial(){
+  setTimeout(() => {
+    tutorialResizable();
+  }, "5000")
+}
+
+//const intervalID = setInterval(loadAnimationTuto, 2000);
