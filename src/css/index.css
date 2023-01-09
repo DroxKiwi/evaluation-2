@@ -8,7 +8,7 @@ body {
 
 .content {
   background-color: white;
-  padding-top: 1%;
+  padding: 1%;
   box-shadow: 3px 5px 5px rgb(108, 108, 108);
   margin-bottom: 2%;
   border-radius: 5px;
@@ -75,46 +75,20 @@ body {
 
 img {
   border-radius: 50px;
+  size: auto;
 }
 
-.case-1 {
-  background-color: blue;
-  height: 500px;
-  border-radius: 50px;
-  padding-top: 5%;
+.list-group {
+  color: black;
 }
 
-.case-2 {
-  background-color: red;
-  height: 200px;
-  border-radius: 50px;
-}
-
-.case-3 {
-  background-color: green;
-  height: 400px;
-  border-radius: 50px;
-  padding-top: 6%;
-}
-
-.case-4 {
-  background-color: yellow;
-  height: 150px;
-  border-radius: 50px;
-  padding-left: 8%;
-  padding-top: 12%;
-}
-
-.case-5 {
-  background-color: orange;
-  height: 50px;
-  border-radius: 50px;
-  padding-left: 9%;
-  padding-top: 16%;
+.filtred {
+  position: fixed;
+  z-index: 0;
 }
 
 .resizable {
-  background-image: url("../images/screen3.png");
+  background-image: url("../images/daviddangers.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,21 +102,19 @@ img {
 .resizable .resizers {
   width: 100%;
   height: 100%;
-  border: 10px solid orange;
   box-sizing: border-box;
 }
 
 .resizable .resizers .resizer {
-  width: 100px;
-  height: 100px;
-  border-radius: 20%;
-  background: rgb(255, 121, 121);
-  border: 5px solid red;
+  width: 1px;
+  height: 100%;
+  border-radius: 0%;
+  border: 10px solid rgba(89, 89, 89, 0.338);
   position: absolute;
 }
 
 .resizable .resizers .resizer.side {
   right: -5px;
-  top: 50%;
+  top: 0%;
   cursor: e-resize;
 }/*# sourceMappingURL=index.css.map */

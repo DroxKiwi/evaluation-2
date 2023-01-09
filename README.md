@@ -33,22 +33,33 @@ function createNewArticle(index){}
 function makeResizableDiv(div){}
 // Elle prend une div en paramètre et modifie sa taille en fonction de la position de la souris.
 ```
-### Voici le code HTML associé :
+### Voici le code HTML associé à une telle fonction :
 ```html
         <!-- resizable fait référence à la div envoyé à la fonction makeresizableDiv -->
       <div class="resizable">
-          <!-- rezizers est le conteneur du bouton sur lequel on clique pour ajuster la div -->
+          <!-- rezizers est le conteneur du code HTML embarqué au sein de l'elèment ajustable en taille et de l'elèment sur lequel on clique pour ajuster la taille de la div en question (la bande grise dans l'exemple du site) -->
         <div class="resizers">
+
+          <!-- Ici on embarque le code HTML au sein de l'elèment ajustable en taille -->
+          <div class="container-fluid filtred">
+            ... code ...
+          </div>
+
             <!-- side fait référence au bouton lui même -->
           <div class="resizer side">
           </div>
         </div>
       </div>
 ```
-### Voici le code css associé : 
+### Voici le code css associé (pour l'exemple en particulier du site) : 
 ```css
+.filtred{
+  position: fixed;
+  z-index: 0;
+}
+
 .resizable {
-  background-image: url("../images/screen3.png");
+  background-image: url("../images/daviddangers.jpg");
   background-attachment: fixed;
   //background-position: center;
   background-repeat: no-repeat;
@@ -64,25 +75,26 @@ function makeResizableDiv(div){}
 .resizable .resizers{
   width: 100%;
   height: 100%;
-  border: 10px solid orange;
   box-sizing: border-box;
 }
 
 .resizable .resizers .resizer{
-  width: 100px;
-  height: 100px;
-  border-radius: 20%;
-  background: rgb(255, 121, 121);
-  border: 5px solid red;
+  width: 1px;
+  height: 100%;
+  border-radius: 0%; 
+  border: 10px solid rgba(89, 89, 89, 0.338);
   position: absolute;
 }
 
 .resizable .resizers .resizer.side {
   right: -5px;
-  top: 50%;
+  top: 0%;
   cursor: e-resize;
 }
 ```
+- **Dans l'exemple du site on se sert de ce code pour créer un filtre qui modifie l'arrière plan lorsque on le tire sur la droite. Mais il est tout à fait possible d'obtenir un carrée qui aurait quatre "resizer" à chaque coin et qu'on pourrait modifier dans toutes les directions**
+
+- **Pour détailler un peu plus l'exemple du site, j'ai trois elèments. Un premier qui est le body du code HTML est qui a un background-image définit avec un z-index de -1. Le second est l'elèment ajustable en taille qui a un z-index supérieur. Le dernier est le code HTML de la page lui même qui donc a un z-index supérieur à l'elèment ajustable. Lorsque qu'on étire l'elèment ajustable, les elèment du code HTML sont toujours au dessus en terme d'index, mais le background-image change puisque celui de l'elèment ajustable a un index supérieur à celui du body**
 
 ---
 > - src/images
