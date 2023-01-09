@@ -1,5 +1,4 @@
-/*Make resizable div by Hung Nguyen*/
-/* modified for the Studi evaluation */
+/*Make resizable div by Fredj Corentin*/
 function makeResizableDiv(div) {
     const element = document.querySelector(div);
     const resizers = document.querySelectorAll(div + ' .resizer')
@@ -25,7 +24,7 @@ function makeResizableDiv(div) {
       })
       
       function resize(e) {
-        if (currentResizer.classList.contains('top-right')) {
+        if (currentResizer.classList.contains('side')) {
           const width = original_width + (e.pageX - original_mouse_x)
           console.log(width)
           if (width > minimum_size) {
