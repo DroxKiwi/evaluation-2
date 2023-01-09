@@ -115,7 +115,7 @@ img{
   width: 1px;
   height: 100%;
   border-radius: 0%; 
-  border: 10px solid rgba(255, 0, 0, 0.338);
+  border: 10px solid rgba(255, 0, 0, 0.546);
   position: absolute;
   opacity: 100%;
 }
@@ -127,6 +127,6 @@ img{
 }
 
 .resizable .resizers .resizer:hover{
-  border: 10px solid rgba(139, 139, 139, 0.338);
+  border: 10px solid rgba(255, 0, 0, 0.826);
 }
 
