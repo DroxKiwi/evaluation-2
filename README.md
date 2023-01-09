@@ -96,6 +96,17 @@ function makeResizableDiv(div){}
 ### Les fichiers hors de /vendor et /src sont le README.md que vous lisez actuellement et le fichier .odt qui vous sert pour l'évaluation
 
 ---
+Voici les documentations utilisées :
+
+[Documentation Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+[Documentation JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+
+[Documentation HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
+
+[Documentation CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
+
+---
 Merci d'avoir lu le README.md 
 
 ***Fredj Corentin***
