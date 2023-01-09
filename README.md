@@ -34,7 +34,7 @@ function makeResizableDiv(div){}
 // Elle prend une div en paramètre et modifie sa taille en fonction de la position de la souris.
 
 function resize(e){}
-// Elle a pour but d'agrandir en temps réel l'elèment concerné en fonction de la position de la souris
+// Elle a pour but d'agrandir en temps réel l'élément concerné en fonction de la position de la souris
 
 function popupTutorial(){}
 // Fonction appelé lorsqu'on charge le body de la page js.html
@@ -43,7 +43,7 @@ function tutorialResizable() {}
 // Fonction appelé après 5 secondes d'attente et qui à son tour appel la fonction d'animation
 
 function loadAnimationTuto(){}
-// Fonction qui modifie l'opacité de l'elèment resizable pour qu'il apparaisse clairement à l'écran
+// Fonction qui modifie l'opacité de l'élément resizable pour qu'il apparaisse clairement à l'écran
 
 function stopAnimationTuto(){}
 // Fonction qui sert à stoper l'animation en cours, et remettre en état la page et les composants. Le tutoriel peut toujours être lancé de nouveau manuellement
@@ -53,10 +53,10 @@ function stopAnimationTuto(){}
 ```html
         <!-- resizable fait référence à la div envoyé à la fonction makeresizableDiv -->
       <div class="resizable">
-          <!-- rezizers est le conteneur du code HTML embarqué au sein de l'elèment ajustable en taille et de l'elèment sur lequel on clique pour ajuster la taille de la div en question (la bande grise dans l'exemple du site) -->
+          <!-- rezizers est le conteneur du code HTML embarqué au sein de l'élément ajustable en taille et de l'élément sur lequel on clique pour ajuster la taille de la div en question (la bande grise dans l'exemple du site) -->
         <div class="resizers">
 
-          <!-- Ici on embarque le code HTML au sein de l'elèment ajustable en taille -->
+          <!-- Ici on embarque le code HTML au sein de l'élément ajustable en taille -->
           <div class="container-fluid filtred">
             ... code ...
           </div>
@@ -110,9 +110,9 @@ function stopAnimationTuto(){}
 ```
 - **Dans l'exemple du site on se sert de ce code pour créer un filtre qui modifie l'arrière plan lorsque on le tire sur la droite. Mais il est tout à fait possible d'obtenir un carrée qui aurait quatre "resizer" à chaque coin et qu'on pourrait modifier dans toutes les directions**
 
-- **Pour détailler un peu plus l'exemple du site, j'ai trois elèments. Un premier qui est le body du code HTML est qui a un background-image définit avec un z-index de -1. Le second est l'elèment ajustable en taille qui a un z-index supérieur. Le dernier est le code HTML de la page lui même qui donc a un z-index supérieur à l'elèment ajustable. Lorsque qu'on étire l'elèment ajustable, les elèment du code HTML sont toujours au dessus en terme d'index, mais le background-image change puisque celui de l'elèment ajustable a un index supérieur à celui du body**
+- **Pour détailler un peu plus l'exemple du site, j'ai trois éléments. Un premier qui est le body du code HTML est qui a un background-image définit avec un z-index de -1. Le second est l'élément ajustable en taille qui a un z-index supérieur. Le dernier est le code HTML de la page lui même qui donc a un z-index supérieur à l'élément ajustable. Lorsque qu'on étire l'élément ajustable, les élément du code HTML sont toujours au dessus en terme d'index, mais le background-image change puisque celui de l'élément ajustable a un index supérieur à celui du body**
 
-- **Le tutoriel quand à lui est fait à l'aide des fonctions *setInterval(function, interval)* et *setTimeout(function, interval)*. L'animation est lancé lorsque le modal du tutoriel apparaît à l'écran, l'animation consiste simplement en un changement de l'opacité de l'elèment resizable. Pour plus de détails je vous invite à regarder dans le fichier *resizable.js*, tout y est expliqué**
+- **Le tutoriel quand à lui est fait à l'aide des fonctions *setInterval(function, interval)* et *setTimeout(function, interval)*. L'animation est lancé lorsque le modal du tutoriel apparaît à l'écran, l'animation consiste simplement en un changement de l'opacité de l'élément resizable. Pour plus de détails je vous invite à regarder dans le fichier *resizable.js*, tout y est expliqué**
 
 ---
 > - src/images
