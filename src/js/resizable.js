@@ -99,4 +99,3 @@ function popupTutorial(){
   }, "5000")
 }
 
-//const intervalID = setInterval(loadAnimationTuto, 2000);
