@@ -4,6 +4,10 @@
 ## Constitution du site
 
 ### Le site est très simple, constitué de 2 dossiers, premièrement ***/src*** constitué de ***/css***, ***/html***, ***/js*** et ***/images***. Le second dossier est ***/vendor***
+
+
+## *Pour visualiser le rendu du site, rendez-vous dans src/html/ et lancez index.html depuis un navigateur*
+
 ---
 > - src/css
 
