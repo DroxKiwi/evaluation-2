@@ -112,7 +112,7 @@ function stopAnimationTuto(){}
 
 - **Pour détailler un peu plus l'exemple du site, j'ai trois éléments. Un premier qui est le body du code HTML est qui a un background-image définit avec un z-index de -1. Le second est l'élément ajustable en taille qui a un z-index supérieur. Le dernier est le code HTML de la page lui même qui donc a un z-index supérieur à l'élément ajustable. Lorsque qu'on étire l'élément ajustable, les élément du code HTML sont toujours au dessus en terme d'index, mais le background-image change puisque celui de l'élément ajustable a un index supérieur à celui du body**
 
-- **Le tutoriel quand à lui est fait à l'aide des fonctions *setInterval(function, interval)* et *setTimeout(function, interval)*. L'animation est lancé lorsque le modal du tutoriel apparaît à l'écran, l'animation consiste simplement en un changement de l'opacité de l'élément resizable. Pour plus de détails je vous invite à regarder dans le fichier *resizable.js*, tout y est expliqué**
+- **Le tutoriel quand à lui est fait à l'aide des fonctions *setInterval(function, interval)* et *setTimeout(function, interval)*. L'animation est lancée lorsque le modal du tutoriel apparaît à l'écran, l'animation consiste simplement en un changement de l'opacité de l'élément resizable. Pour plus de détails je vous invite à regarder dans le fichier *resizable.js*, tout y est expliqué**
 
 ---
 > - src/images
