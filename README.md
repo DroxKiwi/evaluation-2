@@ -6,7 +6,7 @@
 ### Le site est très simple, constitué de 2 dossiers, premièrement ***/src*** constitué de ***/css***, ***/html***, ***/js*** et ***/images***. Le second dossier est ***/vendor***
 
 
-## *Pour visualiser le rendu du site, rendez-vous dans src/html/ et lancez index.html depuis un navigateur*
+## *Pour visualiser le rendu du site, rendez-vous dans src/html/ et lancez index.html depuis un navigateur. La partie la plus importante à visualiser est js.html, une fois sur la page patientez 5 seconde pour que le tutoriel ce lance*
 
 ---
 > - src/css
