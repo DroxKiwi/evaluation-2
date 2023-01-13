@@ -121,7 +121,7 @@ function stopAnimationTuto(){}
   cursor: e-resize;
 }
 ```
--> [index.css](/evaluation-2/src/css/index.css)
+-> [index.css](https://github.com/DroxKiwi/evaluation-2/tree/main/src/css/index.css)
 
 - **Dans l'exemple du site on se sert de ce code pour créer un filtre qui modifie l'arrière plan lorsque on le tire sur la droite. Mais il est tout à fait possible d'obtenir un carrée qui aurait quatre "resizer" à chaque coin et qu'on pourrait modifier dans toutes les directions**
 
@@ -129,9 +129,9 @@ function stopAnimationTuto(){}
 
 - **Le tutoriel quand à lui est fait à l'aide des fonctions *setInterval(function, interval)* et *setTimeout(function, interval)*. L'animation est lancée lorsque le modal du tutoriel apparaît à l'écran, l'animation consiste simplement en un changement de l'opacité de l'élément resizable. Pour plus de détails je vous invite à regarder dans le fichier *resizable.js*, tout y est expliqué**
 
--> [resizable.js](/evaluation-2/src/js/resizable.js)
+-> [resizable.js](https://github.com/DroxKiwi/evaluation-2/tree/main/src/js/resizable.js)
 
--> [js.html](/evaluation-2/src/html/js.html)
+-> [js.html](https://github.com/DroxKiwi/evaluation-2/tree/main/src/html/js.html)
 
 ---
 > - src/images
