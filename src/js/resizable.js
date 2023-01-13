@@ -72,7 +72,7 @@ function loadAnimationTuto(){
   }
 }
 
-// This function stop the animation when we click of the button 
+// This function stop the animation when we click on the button 
 function stopAnimationTuto(){
   const resizer = document.getElementById('resizer')
   clearInterval(intervAnim)
