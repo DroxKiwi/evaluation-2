@@ -62,6 +62,10 @@ function stopAnimationTuto(){}
 // Fonction qui sert à stoper l'animation en cours, et remettre en état la page et les composants. Le tutoriel peut toujours être lancé de nouveau manuellement
 
 ```
+
+-> [resizable.js](https://github.com/DroxKiwi/evaluation-2/tree/main/src/js/resizable.js)
+
+
 ### Voici le code HTML associé à une telle fonction :
 ```html
         <!-- resizable fait référence à la div envoyé à la fonction makeresizableDiv -->
