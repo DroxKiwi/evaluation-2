@@ -87,6 +87,7 @@ function stopAnimationTuto(){
 function tutorialResizable() {
   var btn = document.getElementById('actionTutoResizable');
   btn.click()
+  // we verify than any interval are already running
   if (!intervAnim){
     intervAnim = setInterval(loadAnimationTuto, 1000)
   }
