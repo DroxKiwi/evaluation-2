@@ -3,7 +3,13 @@
 
 ## Constitution du site
 
-### Le site est très simple, constitué de 2 dossiers, premièrement ***/src*** constitué de ***/css***, ***/html***, ***/js*** et ***/images***. Le second dossier est ***/vendor***
+### Le site est très simple, constitué de 2 dossiers, premièrement ***/src*** constitué de ***/css***, ***/html***, ***/js*** et ***/images***. Le second dossier est ***/vendor*** Il a été codé de *mobile first* avec des éléments adaptés selon la taille de l'écran
+
+```html
+<div id="exempleDiv" class="exempleDiv col-xl-6 col-md-9 col-sm-12">
+  ... code ...
+</div>
+```
 
 
 ## *Pour visualiser le rendu du site, rendez-vous dans src/html/ et lancez index.html depuis un navigateur. La partie la plus importante à visualiser est js.html, une fois sur la page patientez 5 seconde pour que le tutoriel ce lance*
