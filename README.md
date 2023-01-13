@@ -38,7 +38,7 @@ function createNewArticle(index){}
 // En fonction du paramètre "index" reçu elle renvoi un élement "div" qui a pour enfant les élements de l'article à afficher
 ```
 
--> [index.js](/evaluation-2/src/js/index.js)
+-> [index.js](https://github.com/DroxKiwi/evaluation-2/tree/main/src/js/index.js)
 
 
 ### Il contient aussi le fichier ***resizable.js*** qui sert à faire fonctionner la page ***js.html***. Le fichier contient les fonctions :
